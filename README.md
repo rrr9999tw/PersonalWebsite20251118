@@ -44,3 +44,8 @@ python app.py
 ```bash
 deactivate
 ```
+
+
+# Flask說明
+
+## static的檔案夾,是放靜態資訊用,例如圖片
