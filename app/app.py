@@ -26,9 +26,5 @@ def portfolio():
 def contact():
     return render_template("contact.html")
 
-@app.route('/new_demo', methods=['GET'])
-def new_demo():
-    return render_template("new_demo.html")
-
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5050, debug=True)
